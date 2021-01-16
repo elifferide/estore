@@ -1,0 +1,547 @@
+body{
+  background-color: #f3f6ff;
+
+}
+.container-fluid{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+/*top-bar*/
+.top-bar{
+  background-color:black;
+  color:#FF6F61;
+  font-size: 14px;
+}
+.top-bar .right{
+  text-align: right;
+}
+/*Navbar*/
+.nav-bar{
+  background-color:#FF6F61;
+}
+.navbar{
+  background-color:#FF6F61;
+  padding: 0 ;
+  font-size:14px;
+}
+.navbar a:hover{
+  text-decoration: none;
+  color:black !important;
+}
+.navbar .dropdown-menu{
+  background-color:#FF6F61;
+  border:none;
+  border-radius: 0;
+}
+.navbar-brand{
+  display:none;
+}
+.navbar .user-a{
+  text-align: right;
+}
+
+.bottom-bar{
+  background-color: white;
+}
+.bottom-bar .form-control{
+  width:100%;
+  border-color: #FF6F61;
+}
+.bottom-bar .form-control{
+  width:100%;
+  border-color: #FF6F61;
+}
+.bottom-bar .form-inline .form-control{
+  position: relative;
+}
+.bottom-bar .form-inline .btn{
+position:absolute;
+right:22px;
+color:#FF6F61;
+}
+.bottom-bar .form-inline .btn:hover{
+  color:white;
+  background-color: #FF6F61;
+}
+.bottom-bar .iki-buton{
+  text-align: right;
+}
+
+.btn-outline-new{
+  border-color:#FF6F61;
+  color:#FF6F61;
+}
+.btn-outline-new:hover {
+  background-color:#FF6F61;
+  color:white;
+}
+.header{
+  padding-top:2rem;
+}
+.header .carousel-inner, .category .col-lg-3{
+  height:400px;
+}
+.header i{
+  color:#FF6F61;
+  margin-left: 1.5rem;
+  margin-right: 1rem;
+  width:1.5rem;
+}
+.header  a{
+padding:0.5rem 1rem;
+border-bottom: 1px solid #f3f6ff;
+}
+.header a:hover{
+  color:#FF6F61;
+}
+.header .list-group-item{
+  border:none ;
+  border-radius: 0;
+  border-bottom: 1px solid #f3f6ff;
+}
+.header a:hover i{
+  color:black;
+}
+.header .home{
+  padding-top: 45px;
+}
+.header .electro{
+  padding-bottom:45px;
+}
+.carousel-inner{
+  position:relative;
+
+}
+.carousel-caption{
+  width:60%;
+  height:60%;
+  position:absulate;
+  top:20%;
+  left:20%;
+  background-color:#FF6F6180;
+  color:white;
+  font-size:1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align:center;
+  font-family: 'Source Code Pro', monospace;
+  z-index: 1;
+  padding-top:10%;
+}
+.carousel-caption .btn {
+  background-color: white;
+  color:#FF6F61;
+  font-size:1rem ;
+  border:1px solid #ffffff;
+}
+.carousel-caption .btn:hover{
+  background-color: #FF6F61;
+  color:white;
+  font-size:1rem ;
+
+}
+.carousel-caption .btn::before{
+  font-family: "Font Awesome 5 Free";
+  content: "\f07a";
+  margin-right:5px;
+}
+.carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color:#ffffff80;
+}
+.carousel-indicators .active {
+    background-color: #FF6F61;
+}
+.carousel-indicators li:hover {
+    background-color: #ffffff;
+}
+.carousel-control-prev, .carousel-control-next{
+  position:absolute;
+  top:50%;
+  width:40px;
+  height: 40px;
+  border-radius: 0.25rem;
+  background-color: #FF6F61;
+  border:none;
+  border-bottom: 0 ;
+}
+.carousel-control-prev{
+  left:5%;
+}
+
+.carousel-control-prev:hover , .carousel-control-next:hover{
+  background-color: black;
+  color:#FF6F61;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon{
+  background-image: none;
+  text-align: center;
+}
+
+.category-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.category-item a{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+  opacity: 0;
+  text-decoration: none;
+}
+
+.category-item a:hover{
+  background-color:#FF6F6180;
+  opacity: 1;
+  color:white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.category-item p{
+  font-size: 1rem;
+}
+
+/*Brand-Slider*/
+.brand-slider{
+  background-color: white;
+}
+
+.feature-item{
+  background-color: white;
+  text-align: center;
+  margin: 0 1rem;
+  padding:1.8rem 0.5rem;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+}
+.feature-item i{
+  color:#FF6F61;
+}
+.feature-item h2{
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 1.5rem;
+  padding-bottom: 0.8rem;
+
+}
+.feature-item p{
+  font-size: 15px;
+}
+.call-to{
+  background-color:#FF6F61;
+  color:white;
+}
+.subscribe{
+  background-color:#FF6F61;
+  color:white;
+}
+.call-to h1, .section-header h1,.subscribe h1{
+  font-family:'Source Code Pro', monospace;
+  font-weight: 700 ;
+  font-size:30px;
+}
+.call-to .btn{
+  font-size: 30px;
+  color:white;
+  border:1px solid white;
+  border-radius: 0.5rem;
+  letter-spacing: 2px;
+}
+.call-to .btn:hover{
+  color:black;
+  background-color:#FF6F61 !important;
+}
+.featured-product .ust ,.featured-product .alt{
+  background-color:black;
+  color:white;
+  height:8%;
+
+}
+.featured-product .ust{
+  line-height: 0.5rem;
+  margin:auto 0;
+}
+.featured-product .ust i{
+  color:#FF6F61;
+}
+
+.featured-product img{
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+  transition: all .3s;
+}
+.ust-renk{
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  opacity: 0;
+}
+.product-item :hover .ust-renk
+{
+  background-color: #FF6F6180;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  opacity:1;
+}
+.featured-product .ust-renk a{
+  width:40px;
+  height: 40px;
+  border:1px solid white;
+  border-radius: 4px;
+  text-align: center;
+  color:white;
+  background-color:#FF6F61;
+}
+.featured-product .ust-renk a:hover{
+  background-color: white;
+  color:#FF6F61;
+}
+.product-item:hover .ust,
+.product-item:hover .alt
+{
+  background-color: #FF6F61;
+}
+.product-item:hover .ust i{
+  color:white;
+}
+.alt .btn{
+  background-color: #FF6F61 !important;
+  color:black;
+  border:none;
+}
+.product-item:hover .alt .btn{
+  background-color: white !important;
+  color:#FF6F61;
+}
+.product-item:hover .featured-img img {
+    transform: scale(1.2);
+}
+.product-item:hover .featured-img{
+  width:100%;
+  height:84%;
+  overflow: hidden;
+}
+.product-item{
+  font-size:1.2rem;
+
+}
+.fiyat{
+  font-size: 2rem;
+}
+small{
+  font-size: 0.8rem;
+}
+
+.section-header{
+  background-color:white;
+  color:#FF6F61;
+}
+.section-header h1{
+  font-family:'Source Code Pro', monospace;
+  font-weight: 700 ;
+  font-size:2.5rem;
+}
+.section-header .carousel-control-prev{
+  top:30%;
+  left:92%;
+  width:30px;
+  height: 30px;
+  border:1px solid #FF6F61;
+  background-color: white;
+  color: #FF6F61;
+}
+.section-header .carousel-control-next{
+  top:30%;
+  left:95%;
+  width:30px;
+  height: 30px;
+  border:1px solid #FF6F61;
+  background-color: white;
+  color: #FF6F61;
+}
+.section-header .carousel-control-next:hover,
+.section-header .carousel-control-prev:hover{
+  background-color:  #FF6F61;
+  color:white;
+}
+.subscribe .form-control{
+  border:1px solid white;
+  width:30%;
+  height: 50%;
+  padding: 0;
+}
+.subscribe input{
+  border:none;
+  text-decoration: :none;
+
+}
+.subscribe button{
+  background-color:  #FF6F61;
+  color:white;
+  font-family:'Source Code Pro', monospace;
+  font-size:1rem !important;
+  margin:0;
+  border: none !important;
+  border-radius: 0 0.3rem 0.3rem 0 !important;
+}
+.subscribe .form-control button:hover{
+  background-color:#000000 !important;
+  color:#FF6F61;
+}
+.customer .carousel-control-prev {
+  top:40%;
+  left:1%;
+
+}
+.customer .carousel-control-next{
+  top:40%;
+  right: 1%;
+}
+
+
+.footer {
+  background-color: white;
+  color:black;
+
+}
+.footer h2{
+  margin-top: 5%;
+  font-size:25px;
+  font-weight: bold;
+  font-family:'Source Code Pro', monospace;
+}
+.footer .contact-info{
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+.social a{
+  display: inline-block;
+  width:40px;
+  height:40px;
+  text-decoration: none;
+  border:1px solid black;
+  border-radius: 0.3rem;
+  text-align: center;
+  padding: 2.5% 0;
+  color:black;
+}
+.social a:hover{
+  border-color:#FF6F61;
+  color:#FF6F61;
+}
+.company-info ul{
+  list-style-type:none;
+  padding-left:0;
+
+
+}
+
+.company-info ul li a{
+  text-decoration: none;
+  color:black;
+
+}
+.company-info ul li a::before{
+  content: '\f105';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  padding-right: 5px;
+}
+.company-info ul li a:hover::before{
+  content: '\f101';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  padding-right: 5px;
+  color:#FF6F61;
+}
+.company-info ul li a:hover{
+  color:#FF6F61;
+}
+
+.footer-bottom{
+  background-color: black;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+
+
+}
+.footer-bottom a{
+  text-decoration: none;
+  color:#FF6F61;
+  font-weight: bold;
+
+}
+.footer-bottom a:hover{
+  color:white;
+}
+@media(min-width:767px) {
+  .navbar{
+    text-transform: uppercase;
+  }
+
+}
+
+@media(max-width:767px) {
+.top-bar .col-md-12{
+  text-align: center;
+}
+.container-fluid{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container-fluid.top-bar{
+  border-bottom: 1px solid #80808040;
+}
+
+.navbar ,.nav-bar{
+  background-color:black;
+  padding-top:0.15rem;
+  padding-bottom:0.15rem;
+  color:#808080 !important;
+}
+.navbar-brand{
+display:inline-block;
+}
+.navbar a:hover{
+  text-decoration: none;
+  color:gray !important;
+}
+.navbar .user-a a{
+  text-align: left;
+
+}
+
+.bottom-bar .form-inline .btn{
+position:absolute;
+right:15px;
+color:#FF6F61;
+}
+.bottom-bar .iki-buton, .bottom-bar .logo , .contact-info, .footer h2{
+  text-align: center;
+}
+.bottom-bar .search{
+  margin:5px 0;
+}
+.header .list-group{
+  width:100%;
+}
+.feature .row{
+  display:block;
+}
+.feature-item{
+  margin: 1rem 0;
+}
+
+}
